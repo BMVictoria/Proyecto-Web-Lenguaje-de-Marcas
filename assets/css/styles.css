@@ -98,6 +98,7 @@ color: transparent;
 @media (max-width: 768px) { 
   .modal-dialog {
       max-width: 500px;
+      
   }
 }
 @media (max-width: 575.98px) { 
@@ -115,6 +116,7 @@ color: transparent;
   }
 }
 
+
 /*Cerrar video
 .modal-header: :any-link, .modal-header:active, .modal-header:visited, .modal-header:hover {
   position: absolute;
@@ -124,3 +126,4 @@ color: transparent;
   text-decoration: none;
   color: #F92A2A; 
 }*/
+

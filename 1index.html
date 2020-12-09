@@ -27,7 +27,7 @@
   <body>
     <div class=" container-fluid">
     <!-- HEADER-->
-    <header class="row align-self-center justify-content-center bg-transparent mb-3">
+    <header class="row align-self-center justify-content-center bg-transparent mb-3 position-sticky">
       <div class=" col-auto mx-auto align-self-center">
         <img class="img-fluid small w-75 pr-5" src=" assets\imgs\logo.png" alt="logo"> 
       </div>
@@ -39,7 +39,7 @@
       </div>
     </header>
     <!--NAVBAR-->
-    <div class="row">
+    <div class="row position-sticky">
       <nav class="navbar navbar-expand-lg navbar-light bg-light col-auto w-100">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -99,10 +99,10 @@
       <div class="modal fade" id="modalvideo"  role="dialog" tabindex="-1"  aria-labelledby="modalvideoLabel" aria-hidden="true" >
         <div class=" modal-dialog-centered" role="document">
           <div class="modal-content">
-            <div class="modal-header ">
-              <span onclick="document.getElementById('modalvideo').style.display='none'" class="w3-button w3-display-topright">&times;</span>            
+            <div class="modal-header my-0">
+              <span onclick="document.getElementById('modalvideo').style.display='none'" class="close">&times;</span>            
               <div class="video-container">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/hwUh8UdXgkg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>           
+                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/hwUh8UdXgkg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>           
               </div>
             </div>
         </div>
@@ -170,6 +170,6 @@
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/jquery-1.10.1.min.js"><\/script>')</script>
     <script src="scripts.js"></script>
-    
+    <script type="text/javascript"></script>
   </body>
 </html>
