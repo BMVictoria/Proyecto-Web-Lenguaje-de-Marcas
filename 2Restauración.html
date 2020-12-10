@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
@@ -64,53 +65,54 @@
                   <button class="btn btn-outline-success my-2 my-sm-2" type="submit">Buscar</button>
               </form>
           </div>
-      </nav> 
-    </div>       
-    <!--CAROUSEL IMAGENES-->
-    <div class="row justify-content-center align-self-auto">
-      <div id="carouselfotos " class="col-auto carousel slide d-block w-75 justify-content-center align-self-center align-middle" data-ride="carousel">
-        <div class="carousel-inner align-self-center align-items-center align-content-center">
-          <div class="carousel-item active">
-            <img class="d-block w-100 align-self-center" src="assets\imgs\lamparadiseño2.png" alt="Lámparas personalizadas">
-            <h2 class=" text-center text-info">Lámparas de diseño</h2>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100 align-self-center" src="assets\imgs\marcorestaurado2.png" alt="Muebles restaurados">
-            <h2 class=" text-center text-info">Muebles restaurados</h2>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100 align-self-center" src="assets\imgs\lamparapersonalizada1.png" alt="Decoración">
-            <h2 class=" text-center text-info">Objetos de decoración</h2>
-          </div>
-        </div>
-      </div>
+        </nav>
     </div>
-
-    <!--VIDEO-->
-    <div class="row justify-content-center">
-      <button type="button" data-toggle="modal" data-target="#modalvideo" class=" position-relative d-flex justify-content-center align-items-center border-0 p-0" onclick="showVideo()">
-        <div class="play-icon position-absolute bg-dark d-flex rounded-circle align-self-center">
-          <i class="icon ion-md-play text-light align-self-center mx-auto"></i>
-        </div>
-        <img src="assets\imgs\marcorestaurado1.png" class=" img-fluid order-last w-75">
-      </button>
-      <!-- Modal -->
-      <div class="modal fade" id="modalvideo"  role="dialog" tabindex="-1"  aria-labelledby="modalvideoLabel" aria-hidden="true" >
-        <div class=" modal-dialog-centered" role="document">
-          <div class="modal-content">
-            <div class="modal-header my-0">
-              <span onclick="document.getElementById('modalvideo').style.display='none'" class="close">&times;</span>            
-              <div class="video-container">
-                <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/hwUh8UdXgkg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>           
+    <div id="restauracion" class="row align-content-center">
+      <div class="table-responsive align-self-center align-middle align-content-center" style="width:100%";></div>
+        <tr class=" card-deck align-middle align-content-center">
+            <div class="card align-content-center" style="width: 18rem;">
+              <img class="card-img-top" src="assets\imgs\obrapictorica1.png" alt="Card image cap" style="width: 18rem";>
+              <div class="card-body">
+                <h5 class="card-title">Producto</h5>
+                <p class="card-text">Descripción de producto</p>
+                <a href="#" class="btn btn-primary" style="color: lightcoral">Comprar</a>
               </div>
             </div>
-        </div>
-      </div>
+            <div class="card align-content-center" style="width: 18rem;">
+              <img class="card-img-top" src="assets\imgs\marcorestaurado1.png" alt="Card image cap" style="width: 18rem";>
+              <div class="card-body">
+                <h5 class="card-title">Producto</h5>
+                <p class="card-text">Descripción de producto</p>
+                <a href="#" class="btn btn-primary" style="color: lightcoral;"><strong>Comprar</strong></a>
+              </div>
+            </div>
+        </tr>
     </div>
+  </div>
+  <div id="restauracion" class="row align-content-center">
+      <div class="table-responsive align-self-center align-middle align-content-center" style="width:100%";></div>
+        <tr class=" card-deck align-middle">
+          <div class="card align-content-center" style="width: 18rem;">
+            <img class="card-img-top" src="assets\imgs\marcorestaurado2.png" alt="Card image cap" style="width: 18rem";>
+            <div class="card-body">
+              <h5 class="card-title">Producto</h5>
+              <p class="card-text">Descripción de producto</p>
+              <a href="#" class="btn btn-primary" style="color: lightcoral">Comprar</a>
+            </div>
+          </div>
+          <div class="card align-content-center" style="width: 18rem;">
+            <img class="card-img-top" src="assets\imgs\marcorestaurado3.png" alt="Card image cap" style="width: 18rem";>
+            <div class="card-body">
+              <h5 class="card-title">Producto</h5>
+              <p class="card-text">Descripción de producto</p>
+              <a href="#" class="btn btn-primary" style="color: lightcoral;">Comprar</a>
+            </div>
+          </div>
+      </tr>
+      </div>
+        <!--SECCION CONTACTO Y SUSCRIPCIÓN-->
 
-    <!--SECCION CONTACTO Y SUSCRIPCIÓN-->
-
-    <div id= "contacto" class="row Footer justify-content-center">
+    <div class="row Footer justify-content-center">
       <div class="col-lg-12 card-deck">
       <div class="card">
         <div class="card-header font-weight-bold">
@@ -167,8 +169,6 @@
         </div>
       </div>
     </div>
-  </div>
-</div>  
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -176,10 +176,5 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <!--ICONOS-->
     <script src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js"></script>
-    <!--CERRAR VIDEO-->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="js/jquery-1.10.1.min.js"><\/script>')</script>
-    <script src="scripts.js"></script>
-    <script type="text/javascript"></script>
-  </body>
+</body>
 </html>
